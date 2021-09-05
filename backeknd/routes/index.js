@@ -51,6 +51,12 @@ router.get('/login*', function(req, res, next) {
   
   //res.render('index', { title: 'Express' });
 });
+router.get('/crud*', function(req, res, next) {
+
+  res.sendfile(path.join(__dirname, '../public/index.html'));
+  
+  //res.render('index', { title: 'Express' });
+});
 
 var mysql = require('mysql');
 // Connection 객체 생성 
