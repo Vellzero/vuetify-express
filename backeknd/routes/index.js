@@ -81,6 +81,7 @@ router.post('/regist', function (req, res) {
       console.error(err);
       throw err;
     }
+    res.status(200).send('success');
   });
 });
 
