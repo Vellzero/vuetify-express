@@ -20,7 +20,7 @@
         <v-btn :href = "'/note'" text> NOTES</v-btn>
         <v-btn :href = "'/next'" text> NEXT PJT</v-btn>
         <v-btn :href = "'/about'" text> about!! </v-btn>
-        <v-btn :href = "'/crud'" text> crud </v-btn>
+        <v-btn :href = "'/crud'" text> crud!! </v-btn>
         <v-spacer></v-spacer>
         <v-btn :href = "'/login'" text> Login</v-btn>
         <v-responsive max-width="260">
