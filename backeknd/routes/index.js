@@ -87,7 +87,7 @@ router.post('/regist', function (req, res) {
 
 /* GET meetingrooms listing. */
 router.get('/users', function(req, res, next) {
-  // 쿼리 날려서 
+  // 쿼리 날려서 보내기
   
   connection.query('SELECT * from users', (error, rows, fields) => {
     if (error) {
