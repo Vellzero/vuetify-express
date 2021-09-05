@@ -8,7 +8,7 @@
       </v-col>
     </v-row>
         <h1 class="display-1 font-weight-bold mb-2">
-          연습용 페이지 입니다.!!
+          연습용 페이지 입니다.!!!
         </h1>
   </v-container>
 </template>
